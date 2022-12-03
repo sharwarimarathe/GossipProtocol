@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sharwari/Downloads/Project2 2/Project2/Project2.fsproj": {}
+  },
+  "projects": {
+    "/Users/sharwari/Downloads/Project2 2/Project2/Project2.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sharwari/Downloads/Project2 2/Project2/Project2.fsproj",
+        "projectName": "Project2",
+        "projectPath": "/Users/sharwari/Downloads/Project2 2/Project2/Project2.fsproj",
+        "packagesPath": "/Users/sharwari/.nuget/packages/",
+        "outputPath": "/Users/sharwari/Downloads/Project2 2/Project2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sharwari/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Akka.Cluster": {
+              "target": "Package",
+              "version": "[1.4.25, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.25, )",
+              "generatePathProperty": true
+            },
+            "Akka.Serialization.Hyperion": {
+              "target": "Package",
+              "version": "[1.4.25, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0-beta.*, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.20, 3.1.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.2.21505.57/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
